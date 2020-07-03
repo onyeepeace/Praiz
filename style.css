@@ -139,6 +139,17 @@ img {
     padding: 1rem 5px 0;
 }
 
+/* Footer */
+
+footer {
+    padding: 2rem 5%;
+    background-color: #000000;
+}
+
+footer h1 {
+    color: #ffffff;
+}
+
 /* About Page */
 
 .mine {
@@ -149,15 +160,34 @@ img {
     padding: 1rem 0;
 }
 
-/* Footer */
-
-footer {
-    padding: 2rem 5%;
-    background-color: #000000;
+.contact, .contact-links {
+    padding-top: 2rem;
 }
 
-footer h1 {
-    color: #ffffff;
+.contact h3 {
+    text-align: center;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #eb7781;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials a i {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.contact-links a:hover, .socials a i:hover {
+    color: #ffd254;
+}
+
+.contact-links p {
+    padding: .5rem;
 }
 
 /* Media query */
