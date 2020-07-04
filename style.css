@@ -21,22 +21,21 @@ main {
     margin: 3rem auto;
 }
 
-/* Navigation */
-
-.navbar {
-    padding: 10px;
+header {
     box-shadow: 0px 2px 2px #e0dede;
 }
 
-.navbar > * {
+/* Navigation */
+
+.navbar {
     width: 85%;
     margin: 0 auto;
+    padding: 10px 0;
 }
 
 .navbar-toggle {
     position: absolute;
-    /* top: 5px; */
-    /* right: 20px; */
+    right: 7.5%;
     display: flex;
     justify-content: flex-end;
     cursor: pointer;
@@ -133,6 +132,10 @@ img {
     font-weight: bold;
 }
 
+.work-link:hover {
+    opacity: 0.5;
+}
+
 .work-link i {
     display: inline;
     font-size: 1rem; 
@@ -187,20 +190,41 @@ footer h1 {
 }
 
 .contact-links p {
-    padding: .5rem;
+    padding: .5rem 0;
 }
 
 /* Media query */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 500px) {
+    main, .navbar {
+        width: 80%;
+    }
+
+    .navbar-toggle {
+        right: 10%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        width: 75%;
+    }
+
     .navbar {
+        width: 75%;
+        margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding: 20px 0;
     }
 
     .navbar-toggle {
         display: none;
+    }
+
+    .name {
+        font-size: 3rem;
     }
 
     .main-nav {
@@ -208,7 +232,6 @@ footer h1 {
         flex-direction: row;
         align-items: center;
         justify-content: flex-end;
-        margin-right: 30px;
     }
 
     .main-nav li {
@@ -216,6 +239,166 @@ footer h1 {
     }
 
     .nav-links {
-        margin-left: 40px;
+        padding: 0 10px;
+    }
+
+    /* Welcome */
+
+    .greet h1 {
+        padding: 2rem 0;
+    }
+
+    .greet p {
+        font-size: 1.2rem;
+    }
+
+    .arrow {
+        font-size: 3rem;
+    }
+
+    /* Work */
+
+    .verve, .quickteller, .caregivrs {
+        margin: 4rem 0;
+    }
+
+    #work h3 {
+        padding-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    #work p {
+        font-size: 1.2rem;
+    }
+
+    .work-link a {
+        padding: 1.5rem 0 10px;
+        font-size: 1.2rem;
+    }
+
+    .work-link i {
+        padding: 1.5rem 10px 0;
+        font-size: 1.5rem;
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 2.5rem 7.5%;
+    }
+
+    footer h1 {
+        font-size: 2.5rem;
+    }
+
+    /* About Page */
+    .me {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .mine p {
+        font-size: 1.2rem;
+    }
+
+    .contact h3 {
+        font-size: 2rem;
+    }
+
+    .socials a i {
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+
+    .contact-links p {
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    main, .navbar {
+        width: 65%;
+    }
+
+    /* Welcome */
+
+    .greet h1 {
+        font-size: 2rem;
+    }
+
+    .greet p {
+        font-size: 1.5rem;
+    }
+
+    .arrow {
+        font-size: 4rem;
+    }
+
+    /* Work */
+
+    .verve, .quickteller, .caregivrs {
+        margin: 10rem 0;
+    }
+
+    #phone {
+        width: 70%;
+        margin-left: 3rem;
+    }
+
+    #sign {
+        margin-left: 3rem;
+    }
+
+    #work h3 {
+        padding-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    #work p {
+        font-size: 1.5rem;
+    }
+
+    .work-link a {
+        padding: 2rem 0 10px;
+        font-size: 1.5rem;
+    }
+
+    .work-link i {
+        padding: 2rem 10px 0;
+        font-size: 2rem;
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 2.5rem 10%;
+    }
+
+    footer h1 {
+        font-size: 3rem;
+    }
+
+    /* About Page */
+    .me {
+        font-size: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .mine p {
+        font-size: 1.5rem;
+        padding: 1.5rem 0;
+    }
+
+    .contact h3 {
+        font-size: 2.2rem;
+    }
+
+    .socials a i {
+        font-size: 3.5rem;
+    }
+
+    .contact-links p {
+        font-size: 1.5rem;
     }
 }
