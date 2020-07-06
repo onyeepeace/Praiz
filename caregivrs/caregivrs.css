@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+}
+
+.hero {
+    padding: 3rem;
+    background-color: #6bad4c;
+    color: #ffffff;
+}
+
+.width, .template {
+    width: 85%;
+    margin: 3rem auto 0;
+}
+
+.user-research {
+    padding: 3rem;
+    background-color: #6bad4c;
+    color: #ffffff;
+}

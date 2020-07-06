@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+}
+
+.width, .focus, .quantitative-research, .qualitative-research, .user-journey, .insights, .new-images {
+    width: 85%;
+    margin: 3rem auto;
+}
+
+.new-quickteller h2 {
+    padding: 2rem 0;
+    background-color: #00425f;
+    color: #ffffff;
+    text-align: center;
+}
