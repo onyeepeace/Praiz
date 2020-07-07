@@ -9,6 +9,10 @@ main {
     margin: 0;
 }
 
+img {
+    width: 10%;
+}
+
 .width, .role, .interface {
     width: 85%;
     margin: 3rem auto 0;

@@ -70,6 +70,11 @@ header {
     opacity: 0.5;
 }
 
+.current {
+    padding-bottom: .2rem;
+    border-bottom: 4px solid #ffd254;
+}
+
 .active {
     display: block;
 }
@@ -240,6 +245,10 @@ footer h1 {
 
     .nav-links {
         padding: 0 10px;
+    }
+
+    .current {
+        padding-bottom: .2rem;
     }
 
     /* Welcome */
