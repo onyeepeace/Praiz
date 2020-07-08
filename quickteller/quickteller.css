@@ -171,13 +171,6 @@ img {
 
     .quickteller-intro p, .ux-role ul li, .resources ul li, .research-goals ul li, .focus-groups p, .questions ul li, .quantitative-research p, .qualitative-research p, .qualitative-research ul li, .research-insights p, .new {
         font-size: 1.2rem;
-    } 
-
-    .quickteller-ux {
-        grid-template-areas: 
-        "black job job"
-        "black ux ux"
-        "black ux ux";
     }
 
     .quickteller-ux h2 {
@@ -233,6 +226,10 @@ img {
 }
 
 @media screen and (min-width: 1440px) {
+    .navbar {
+        width: 90%;
+    }
+
     .width, .focus, .quantitative-research, .qualitative-research, .user-journey, .insights, .new-images {
         width: 65%;
         margin: 3rem auto;
