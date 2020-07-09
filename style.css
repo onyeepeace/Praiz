@@ -45,7 +45,8 @@ header {
 
 .name {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
     text-decoration: none;
     color: #000000;
 }
@@ -63,7 +64,7 @@ header {
 .nav-links {
     text-decoration: none;
     color: #000000;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .name:hover, .right-nav a:hover {
@@ -150,12 +151,13 @@ img {
 /* Footer */
 
 footer {
-    padding: 2rem 5%;
+    padding: 1rem 5%;
     background-color: #000000;
 }
 
 footer h1 {
     color: #ffffff;
+    font-size: 1.5rem;
 }
 
 /* About Page */
@@ -186,7 +188,7 @@ footer h1 {
 }
 
 .socials a i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1rem;
 }
 
@@ -229,7 +231,7 @@ footer h1 {
     }
 
     .name {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .main-nav {
@@ -244,7 +246,7 @@ footer h1 {
     }
 
     .nav-links {
-        padding: 0 10px;
+        margin: 0 10px;
     }
 
     .current {
@@ -293,11 +295,11 @@ footer h1 {
     /* Footer */
 
     footer {
-        padding: 2.5rem 7.5%;
+        padding: 1.2rem 7.5%;
     }
 
     footer h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     /* About Page */
@@ -315,7 +317,7 @@ footer h1 {
     }
 
     .socials a i {
-        font-size: 3rem;
+        font-size: 2rem;
         padding: 1.5rem;
     }
 
@@ -328,6 +330,14 @@ footer h1 {
 @media screen and (min-width: 1440px) {
     main, .navbar {
         width: 65%;
+    }
+
+    .name {
+        font-size: 2.5rem;
+    }
+
+    .nav-links {
+        font-size: 1.5rem;
     }
 
     /* Welcome */
@@ -381,11 +391,11 @@ footer h1 {
     /* Footer */
 
     footer {
-        padding: 2.5rem 10%;
+        padding: 1.5rem 10%;
     }
 
     footer h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     /* About Page */
@@ -404,7 +414,7 @@ footer h1 {
     }
 
     .socials a i {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     .contact-links p {
