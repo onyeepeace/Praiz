@@ -101,17 +101,13 @@ img {
     list-style: none;
 }
 
-.quantitative-research h2, .qualitative-research h2, .user-journey h2, .research-insights h2, .design-process h2, .ui-pallete h2, .old h2 {
+.quantitative-research h2, .qualitative-research h2, .user-journey h2, .research-insights h2, .ui-pallete h2, .old h2 {
     text-align: center;
 }
 
 .qualitative-research ul {
     list-style: none;
 }
-
-/* .qualitative-research ul li {
-    padding-bottom: .5rem;
-} */
 
 .research-insights span {
     color: #000000;
@@ -189,7 +185,7 @@ img {
         padding-top: 1rem;
     }
 
-    .quickteller-ux h2, .resources h2, .research-goals h2, .focus-groups h2, .quantitative-research h2, .qualitative-research h2, .user-journey h2, .research-insights h2, .design-process h2, .ui-pallete h2, .old h2 {
+    .quickteller-ux h2, .resources h2, .research-goals h2, .focus-groups h2, .quantitative-research h2, .qualitative-research h2, .user-journey h2, .research-insights h2, .ui-pallete h2, .old h2 {
         font-size: 1.8rem;
     }
 
@@ -227,11 +223,11 @@ img {
 
 @media screen and (min-width: 1440px) {
     .navbar {
-        width: 90%;
+        width: 85%;
     }
 
     .width, .focus, .quantitative-research, .qualitative-research, .user-journey, .insights, .new-images {
-        width: 65%;
+        width: 70%;
         margin: 3rem auto;
     }
 
@@ -259,7 +255,7 @@ img {
         padding-top: 1.5rem;
     }
 
-    .quickteller-ux h2, .resources h2, .research-goals h2, .focus-groups h2, .quantitative-research h2, .qualitative-research h2, .user-journey h2, .research-insights h2, .design-process h2, .ui-pallete h2, .old h2 {
+    .quickteller-ux h2, .resources h2, .research-goals h2, .focus-groups h2, .quantitative-research h2, .qualitative-research h2, .user-journey h2, .research-insights h2, .ui-pallete h2, .old h2 {
         font-size: 2rem;
     }
 
