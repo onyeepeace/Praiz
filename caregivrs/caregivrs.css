@@ -94,11 +94,11 @@ main {
 
 @media screen and (min-width: 1440px) {
     .hero, .user-research {
-        padding: 3rem 15%;
+        padding: 3rem 7.5%;
     }
 
     .width, .template {
-        width: 70%;
+        width: 85%;
     }
 
     .hero h3 {
