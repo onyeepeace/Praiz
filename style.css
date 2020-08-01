@@ -86,7 +86,8 @@ header {
 }
 
 span {
-    color: #ffd254;
+    /* color: #e2a705; */
+    color: #F7BD32;
 }
 
 /* Welcome */
@@ -99,19 +100,26 @@ span {
     line-height: 2;
 }
 
-.arrow {
+/* .arrow {
     display: flex;
+    z-index: -1;
     justify-content: center;
     padding: 3rem 0 0;
-}
+} */
 
 /* Work */
 
 .verve, .quickteller, .caregivrs {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     margin: 3rem 0;
+}
+
+.quickteller img {
+    display: block;
+    width: 85%;
 }
 
 img {
@@ -334,7 +342,7 @@ footer h1 {
 
 @media screen and (min-width: 1440px) {
     main, .navbar {
-        width: 85%;
+        width: 75%;
     }
 
     .name {
